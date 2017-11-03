@@ -1,0 +1,16 @@
+import numpy as np
+
+a = np.random.random((10, 4))
+print(a)
+print("")
+print(np.sum(a))
+print(np.sum(a, axis=0))
+print(np.sum(a, axis=1))
+print(" ")
+print(np.min(a))
+print(np.min(a, axis=0))
+print(np.min(a, axis=1))
+print(" ")
+print(np.max(a))
+print(np.max(a, axis=0))
+print(np.max(a, axis=1))
